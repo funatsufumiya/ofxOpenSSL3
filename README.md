@@ -5,6 +5,7 @@ OpenSSL3 for openFrameworks
 - openssl version: [3.2.2](https://github.com/openssl/openssl/blob/openssl-3.2.2/)
 - Tested on oF v0.12.0
   - macOS (arm64)
+  - Linux (x64)
 
 ## Notes
 
