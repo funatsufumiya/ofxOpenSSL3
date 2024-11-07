@@ -12,7 +12,8 @@ OpenSSL3 for openFrameworks
 
 - This lib won't work with `ofxPoco`, because `ofxPoco` includes OpenSSL < 3.0.0 in it.
 - On windows, you should use `#include <openssl3/xxx>` instaed of `#include <openssl/xxx>`.
-	- Renamed because default openssl < 3.0.0 will be loaded by oF system (on oF v0.12.0)
+	- Renamed because openssl < 3.0.0 **will be loaded by default** by oF system (on oF v0.12.0)
+	- This may cause other unknown issues, because using with different version of openssl.
 
 ## Usage
 
