@@ -11,15 +11,15 @@
 # define OPENSSL_KDF_H
 # pragma once
 
-# include <openssl/macros.h>
+# include <openssl3/macros.h>
 # ifndef OPENSSL_NO_DEPRECATED_3_0
 #  define HEADER_KDF_H
 # endif
 
 # include <stdarg.h>
 # include <stddef.h>
-# include <openssl/types.h>
-# include <openssl/core.h>
+# include <openssl3/types.h>
+# include <openssl3/core.h>
 
 # ifdef __cplusplus
 extern "C" {

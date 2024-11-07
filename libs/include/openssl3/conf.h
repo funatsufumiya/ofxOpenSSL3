@@ -16,17 +16,17 @@
 # define OPENSSL_CONF_H
 # pragma once
 
-# include <openssl/macros.h>
+# include <openssl3/macros.h>
 # ifndef OPENSSL_NO_DEPRECATED_3_0
 #  define HEADER_CONF_H
 # endif
 
-# include <openssl/bio.h>
-# include <openssl/lhash.h>
-# include <openssl/safestack.h>
-# include <openssl/e_os2.h>
-# include <openssl/types.h>
-# include <openssl/conferr.h>
+# include <openssl3/bio.h>
+# include <openssl3/lhash.h>
+# include <openssl3/safestack.h>
+# include <openssl3/e_os2.h>
+# include <openssl3/types.h>
+# include <openssl3/conferr.h>
 # ifndef OPENSSL_NO_STDIO
 #  include <stdio.h>
 # endif
@@ -89,7 +89,7 @@ struct conf_method_st;
 typedef struct conf_method_st CONF_METHOD;
 
 # ifndef OPENSSL_NO_DEPRECATED_3_0
-#  include <openssl/conftypes.h>
+#  include <openssl3/conftypes.h>
 # endif
 
 /* Module definitions */

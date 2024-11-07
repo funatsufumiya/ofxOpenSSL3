@@ -17,13 +17,13 @@
 # define OPENSSL_LHASH_H
 # pragma once
 
-# include <openssl/macros.h>
+# include <openssl3/macros.h>
 # ifndef OPENSSL_NO_DEPRECATED_3_0
 #  define HEADER_LHASH_H
 # endif
 
-# include <openssl/e_os2.h>
-# include <openssl/bio.h>
+# include <openssl3/e_os2.h>
+# include <openssl3/bio.h>
 # ifndef OPENSSL_NO_STDIO
 #  include <stdio.h>
 # endif

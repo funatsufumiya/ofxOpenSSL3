@@ -11,16 +11,16 @@
 # define OPENSSL_DECODER_H
 # pragma once
 
-# include <openssl/opensslconf.h>
+# include <openssl3/opensslconf.h>
 
 # ifndef OPENSSL_NO_STDIO
 #  include <stdio.h>
 # endif
 # include <stdarg.h>
 # include <stddef.h>
-# include <openssl/decodererr.h>
-# include <openssl/types.h>
-# include <openssl/core.h>
+# include <openssl3/decodererr.h>
+# include <openssl3/types.h>
+# include <openssl3/core.h>
 
 # ifdef __cplusplus
 extern "C" {

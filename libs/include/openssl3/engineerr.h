@@ -12,9 +12,9 @@
 # define OPENSSL_ENGINEERR_H
 # pragma once
 
-# include <openssl/opensslconf.h>
-# include <openssl/symhacks.h>
-# include <openssl/cryptoerr_legacy.h>
+# include <openssl3/opensslconf.h>
+# include <openssl3/symhacks.h>
+# include <openssl3/cryptoerr_legacy.h>
 
 
 # ifndef OPENSSL_NO_ENGINE

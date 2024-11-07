@@ -6,10 +6,13 @@ OpenSSL3 for openFrameworks
 - Tested on oF v0.12.0
   - macOS (arm64)
   - Linux (x64)
+  - Windows (x64)
 
 ## Notes
 
 - This lib won't work with `ofxPoco`, because `ofxPoco` includes OpenSSL < 3.0.0 in it.
+- On windows, you should use `#include <openssl3/xxx>` instaed of `#include <openssl/xxx>`.
+	- Renamed because default openssl < 3.0.0 will be loaded by oF system (on oF v0.12.0)
 
 ## Usage
 
@@ -19,11 +22,12 @@ See [example_http_client](example_http_client).
 - Same example of [ofxHttpLib](https://github.com/funatsufumiya/ofxHttpLib) is used here, so you need install `ofxHttpLib` before run this example.
 
 ```cpp
-#include "ofApp.h"
-
 #define CPPHTTPLIB_OPENSSL_SUPPORT
 
+// NOTE: Need to be here to avoid conflict with openssl < 3.0.0 (especially on Windows)
 #include "httplib.h"
+
+#include "ofApp.h"
 
 //--------------------------------------------------------------
 void ofApp::setup(){

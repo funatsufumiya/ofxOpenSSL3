@@ -16,7 +16,7 @@
 # define OPENSSL_X509_VFY_H
 # pragma once
 
-# include <openssl/macros.h>
+# include <openssl3/macros.h>
 # ifndef OPENSSL_NO_DEPRECATED_3_0
 #  define HEADER_X509_VFY_H
 # endif
@@ -25,14 +25,14 @@
  * Protect against recursion, x509.h and x509_vfy.h each include the other.
  */
 # ifndef OPENSSL_X509_H
-#  include <openssl/x509.h>
+#  include <openssl3/x509.h>
 # endif
 
-# include <openssl/opensslconf.h>
-# include <openssl/lhash.h>
-# include <openssl/bio.h>
-# include <openssl/crypto.h>
-# include <openssl/symhacks.h>
+# include <openssl3/opensslconf.h>
+# include <openssl3/lhash.h>
+# include <openssl3/bio.h>
+# include <openssl3/crypto.h>
+# include <openssl3/symhacks.h>
 
 #ifdef  __cplusplus
 extern "C" {

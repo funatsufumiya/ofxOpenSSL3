@@ -13,22 +13,22 @@
 # define OPENSSL_ERR_H
 # pragma once
 
-# include <openssl/macros.h>
+# include <openssl3/macros.h>
 # ifndef OPENSSL_NO_DEPRECATED_3_0
 #  define HEADER_ERR_H
 # endif
 
-# include <openssl/e_os2.h>
+# include <openssl3/e_os2.h>
 
 # ifndef OPENSSL_NO_STDIO
 #  include <stdio.h>
 #  include <stdlib.h>
 # endif
 
-# include <openssl/types.h>
-# include <openssl/bio.h>
-# include <openssl/lhash.h>
-# include <openssl/cryptoerr_legacy.h>
+# include <openssl3/types.h>
+# include <openssl3/bio.h>
+# include <openssl3/lhash.h>
+# include <openssl3/cryptoerr_legacy.h>
 
 #ifdef  __cplusplus
 extern "C" {

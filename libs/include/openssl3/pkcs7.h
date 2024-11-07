@@ -16,18 +16,18 @@
 # define OPENSSL_PKCS7_H
 # pragma once
 
-# include <openssl/macros.h>
+# include <openssl3/macros.h>
 # ifndef OPENSSL_NO_DEPRECATED_3_0
 #  define HEADER_PKCS7_H
 # endif
 
-# include <openssl/asn1.h>
-# include <openssl/bio.h>
-# include <openssl/e_os2.h>
+# include <openssl3/asn1.h>
+# include <openssl3/bio.h>
+# include <openssl3/e_os2.h>
 
-# include <openssl/symhacks.h>
-# include <openssl/types.h>
-# include <openssl/pkcs7err.h>
+# include <openssl3/symhacks.h>
+# include <openssl3/types.h>
+# include <openssl3/pkcs7err.h>
 # ifndef OPENSSL_NO_STDIO
 #  include <stdio.h>
 # endif

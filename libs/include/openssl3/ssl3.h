@@ -12,15 +12,15 @@
 # define OPENSSL_SSL3_H
 # pragma once
 
-# include <openssl/macros.h>
+# include <openssl3/macros.h>
 # ifndef OPENSSL_NO_DEPRECATED_3_0
 #  define HEADER_SSL3_H
 # endif
 
-# include <openssl/comp.h>
-# include <openssl/buffer.h>
-# include <openssl/evp.h>
-# include <openssl/ssl.h>
+# include <openssl3/comp.h>
+# include <openssl3/buffer.h>
+# include <openssl3/evp.h>
+# include <openssl3/ssl.h>
 
 #ifdef  __cplusplus
 extern "C" {

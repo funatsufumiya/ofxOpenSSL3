@@ -16,20 +16,20 @@
 # define OPENSSL_UI_H
 # pragma once
 
-# include <openssl/macros.h>
+# include <openssl3/macros.h>
 # ifndef OPENSSL_NO_DEPRECATED_3_0
 #  define HEADER_UI_H
 # endif
 
-# include <openssl/opensslconf.h>
+# include <openssl3/opensslconf.h>
 
 # ifndef OPENSSL_NO_DEPRECATED_1_1_0
-#  include <openssl/crypto.h>
+#  include <openssl3/crypto.h>
 # endif
-# include <openssl/safestack.h>
-# include <openssl/pem.h>
-# include <openssl/types.h>
-# include <openssl/uierr.h>
+# include <openssl3/safestack.h>
+# include <openssl3/pem.h>
+# include <openssl3/types.h>
+# include <openssl3/uierr.h>
 
 /* For compatibility reasons, the macro OPENSSL_NO_UI is currently retained */
 # ifndef OPENSSL_NO_DEPRECATED_3_0

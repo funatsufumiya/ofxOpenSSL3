@@ -16,18 +16,18 @@
 # define OPENSSL_CT_H
 # pragma once
 
-# include <openssl/macros.h>
+# include <openssl3/macros.h>
 # ifndef OPENSSL_NO_DEPRECATED_3_0
 #  define HEADER_CT_H
 # endif
 
-# include <openssl/opensslconf.h>
+# include <openssl3/opensslconf.h>
 
 # ifndef OPENSSL_NO_CT
-# include <openssl/types.h>
-# include <openssl/safestack.h>
-# include <openssl/x509.h>
-# include <openssl/cterr.h>
+# include <openssl3/types.h>
+# include <openssl3/safestack.h>
+# include <openssl3/x509.h>
+# include <openssl3/cterr.h>
 # ifdef  __cplusplus
 extern "C" {
 # endif

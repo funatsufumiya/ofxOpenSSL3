@@ -1,8 +1,10 @@
-#include "ofApp.h"
-
 #define CPPHTTPLIB_OPENSSL_SUPPORT
 
+// NOTE: Need to be here to avoid conflict with openssl < 3.0.0 (especially on Windows)
 #include "httplib.h"
+
+#include "ofApp.h"
+
 
 //--------------------------------------------------------------
 void ofApp::setup(){

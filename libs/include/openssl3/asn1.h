@@ -16,7 +16,7 @@
 # define OPENSSL_ASN1_H
 # pragma once
 
-# include <openssl/macros.h>
+# include <openssl3/macros.h>
 # ifndef OPENSSL_NO_DEPRECATED_3_0
 #  define HEADER_ASN1_H
 # endif
@@ -25,15 +25,15 @@
 #  include <stdio.h>
 # endif
 # include <time.h>
-# include <openssl/e_os2.h>
-# include <openssl/opensslconf.h>
-# include <openssl/bio.h>
-# include <openssl/safestack.h>
-# include <openssl/asn1err.h>
-# include <openssl/symhacks.h>
+# include <openssl3/e_os2.h>
+# include <openssl3/opensslconf.h>
+# include <openssl3/bio.h>
+# include <openssl3/safestack.h>
+# include <openssl3/asn1err.h>
+# include <openssl3/symhacks.h>
 
-# include <openssl/types.h>
-# include <openssl/bn.h>
+# include <openssl3/types.h>
+# include <openssl3/bn.h>
 
 # ifdef OPENSSL_BUILD_SHLIBCRYPTO
 #  undef OPENSSL_EXTERN

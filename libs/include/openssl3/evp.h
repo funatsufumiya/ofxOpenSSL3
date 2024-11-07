@@ -11,7 +11,7 @@
 # define OPENSSL_EVP_H
 # pragma once
 
-# include <openssl/macros.h>
+# include <openssl3/macros.h>
 # ifndef OPENSSL_NO_DEPRECATED_3_0
 #  define HEADER_ENVELOPE_H
 # endif
@@ -22,14 +22,14 @@
 #  include <stdio.h>
 # endif
 
-# include <openssl/opensslconf.h>
-# include <openssl/types.h>
-# include <openssl/core.h>
-# include <openssl/core_dispatch.h>
-# include <openssl/symhacks.h>
-# include <openssl/bio.h>
-# include <openssl/evperr.h>
-# include <openssl/params.h>
+# include <openssl3/opensslconf.h>
+# include <openssl3/types.h>
+# include <openssl3/core.h>
+# include <openssl3/core_dispatch.h>
+# include <openssl3/symhacks.h>
+# include <openssl3/bio.h>
+# include <openssl3/evperr.h>
+# include <openssl3/params.h>
 
 # define EVP_MAX_MD_SIZE                 64/* longest known is SHA512 */
 # define EVP_MAX_KEY_LENGTH              64
@@ -41,7 +41,7 @@
 /* Default PKCS#5 iteration count */
 # define PKCS5_DEFAULT_ITER              2048
 
-# include <openssl/objects.h>
+# include <openssl3/objects.h>
 
 # ifndef OPENSSL_NO_DEPRECATED_3_0
 #  define EVP_PK_RSA      0x0001

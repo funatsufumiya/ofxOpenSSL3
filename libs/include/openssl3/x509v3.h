@@ -16,15 +16,15 @@
 # define OPENSSL_X509V3_H
 # pragma once
 
-# include <openssl/macros.h>
+# include <openssl3/macros.h>
 # ifndef OPENSSL_NO_DEPRECATED_3_0
 #  define HEADER_X509V3_H
 # endif
 
-# include <openssl/bio.h>
-# include <openssl/x509.h>
-# include <openssl/conf.h>
-# include <openssl/x509v3err.h>
+# include <openssl3/bio.h>
+# include <openssl3/x509.h>
+# include <openssl3/conf.h>
+# include <openssl3/x509v3err.h>
 # ifndef OPENSSL_NO_STDIO
 #  include <stdio.h>
 # endif

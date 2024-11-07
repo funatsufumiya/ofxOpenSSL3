@@ -11,16 +11,16 @@
 # define OPENSSL_BUFFER_H
 # pragma once
 
-# include <openssl/macros.h>
+# include <openssl3/macros.h>
 # ifndef OPENSSL_NO_DEPRECATED_3_0
 #  define HEADER_BUFFER_H
 # endif
 
-# include <openssl/types.h>
+# include <openssl3/types.h>
 # ifndef OPENSSL_CRYPTO_H
-#  include <openssl/crypto.h>
+#  include <openssl3/crypto.h>
 # endif
-# include <openssl/buffererr.h>
+# include <openssl3/buffererr.h>
 
 
 #ifdef  __cplusplus

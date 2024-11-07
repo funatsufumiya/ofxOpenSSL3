@@ -16,13 +16,13 @@
 # define OPENSSL_SAFESTACK_H
 # pragma once
 
-# include <openssl/macros.h>
+# include <openssl3/macros.h>
 # ifndef OPENSSL_NO_DEPRECATED_3_0
 #  define HEADER_SAFESTACK_H
 # endif
 
-# include <openssl/stack.h>
-# include <openssl/e_os2.h>
+# include <openssl3/stack.h>
+# include <openssl3/e_os2.h>
 
 #ifdef __cplusplus
 extern "C" {

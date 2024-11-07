@@ -11,15 +11,15 @@
 # define OPENSSL_OBJECTS_H
 # pragma once
 
-# include <openssl/macros.h>
+# include <openssl3/macros.h>
 # ifndef OPENSSL_NO_DEPRECATED_3_0
 #  define HEADER_OBJECTS_H
 # endif
 
-# include <openssl/obj_mac.h>
-# include <openssl/bio.h>
-# include <openssl/asn1.h>
-# include <openssl/objectserr.h>
+# include <openssl3/obj_mac.h>
+# include <openssl3/bio.h>
+# include <openssl3/asn1.h>
+# include <openssl3/objectserr.h>
 
 # define OBJ_NAME_TYPE_UNDEF             0x00
 # define OBJ_NAME_TYPE_MD_METH           0x01

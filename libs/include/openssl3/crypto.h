@@ -17,7 +17,7 @@
 # define OPENSSL_CRYPTO_H
 # pragma once
 
-# include <openssl/macros.h>
+# include <openssl3/macros.h>
 # ifndef OPENSSL_NO_DEPRECATED_3_0
 #  define HEADER_CRYPTO_H
 # endif
@@ -25,31 +25,31 @@
 # include <stdlib.h>
 # include <time.h>
 
-# include <openssl/e_os2.h>
+# include <openssl3/e_os2.h>
 
 # ifndef OPENSSL_NO_STDIO
 #  include <stdio.h>
 # endif
 
-# include <openssl/safestack.h>
-# include <openssl/opensslv.h>
-# include <openssl/types.h>
-# include <openssl/opensslconf.h>
-# include <openssl/cryptoerr.h>
-# include <openssl/core.h>
+# include <openssl3/safestack.h>
+# include <openssl3/opensslv.h>
+# include <openssl3/types.h>
+# include <openssl3/opensslconf.h>
+# include <openssl3/cryptoerr.h>
+# include <openssl3/core.h>
 
 # ifdef CHARSET_EBCDIC
-#  include <openssl/ebcdic.h>
+#  include <openssl3/ebcdic.h>
 # endif
 
 /*
  * Resolve problems on some operating systems with symbol names that clash
  * one way or another
  */
-# include <openssl/symhacks.h>
+# include <openssl3/symhacks.h>
 
 # ifndef OPENSSL_NO_DEPRECATED_1_1_0
-#  include <openssl/opensslv.h>
+#  include <openssl3/opensslv.h>
 # endif
 
 #ifdef  __cplusplus

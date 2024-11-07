@@ -12,11 +12,11 @@
 # define OPENSSL_HTTP_H
 # pragma once
 
-# include <openssl/opensslconf.h>
+# include <openssl3/opensslconf.h>
 
-# include <openssl/bio.h>
-# include <openssl/asn1.h>
-# include <openssl/conf.h>
+# include <openssl3/bio.h>
+# include <openssl3/asn1.h>
+# include <openssl3/conf.h>
 
 
 # ifdef __cplusplus

@@ -18,8 +18,8 @@
 # define OPENSSL_SSLERR_LEGACY_H
 # pragma once
 
-# include <openssl/macros.h>
-# include <openssl/symhacks.h>
+# include <openssl3/macros.h>
+# include <openssl3/symhacks.h>
 
 # ifdef  __cplusplus
 extern "C" {

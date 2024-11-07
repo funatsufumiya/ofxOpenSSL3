@@ -11,27 +11,27 @@
 # define OPENSSL_TS_H
 # pragma once
 
-# include <openssl/macros.h>
+# include <openssl3/macros.h>
 # ifndef OPENSSL_NO_DEPRECATED_3_0
 #  define HEADER_TS_H
 # endif
 
-# include <openssl/opensslconf.h>
+# include <openssl3/opensslconf.h>
 
 # ifndef OPENSSL_NO_TS
-# include <openssl/symhacks.h>
-# include <openssl/buffer.h>
-# include <openssl/evp.h>
-# include <openssl/bio.h>
-# include <openssl/asn1.h>
-# include <openssl/safestack.h>
-# include <openssl/rsa.h>
-# include <openssl/dsa.h>
-# include <openssl/dh.h>
-# include <openssl/tserr.h>
-# include <openssl/ess.h>
-# include <openssl/x509.h>
-# include <openssl/x509v3.h>
+# include <openssl3/symhacks.h>
+# include <openssl3/buffer.h>
+# include <openssl3/evp.h>
+# include <openssl3/bio.h>
+# include <openssl3/asn1.h>
+# include <openssl3/safestack.h>
+# include <openssl3/rsa.h>
+# include <openssl3/dsa.h>
+# include <openssl3/dh.h>
+# include <openssl3/tserr.h>
+# include <openssl3/ess.h>
+# include <openssl3/x509.h>
+# include <openssl3/x509v3.h>
 # ifndef OPENSSL_NO_STDIO
 #  include <stdio.h>
 # endif

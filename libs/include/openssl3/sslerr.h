@@ -12,9 +12,9 @@
 # define OPENSSL_SSLERR_H
 # pragma once
 
-# include <openssl/opensslconf.h>
-# include <openssl/symhacks.h>
-# include <openssl/sslerr_legacy.h>
+# include <openssl3/opensslconf.h>
+# include <openssl3/symhacks.h>
+# include <openssl3/sslerr_legacy.h>
 
 
 

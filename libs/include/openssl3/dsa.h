@@ -11,26 +11,26 @@
 # define OPENSSL_DSA_H
 # pragma once
 
-# include <openssl/macros.h>
+# include <openssl3/macros.h>
 # ifndef OPENSSL_NO_DEPRECATED_3_0
 #  define HEADER_DSA_H
 # endif
 
-# include <openssl/opensslconf.h>
-# include <openssl/types.h>
+# include <openssl3/opensslconf.h>
+# include <openssl3/types.h>
 
 # include <stdlib.h>
 
 # ifndef OPENSSL_NO_DSA
-#  include <openssl/e_os2.h>
-#  include <openssl/asn1.h>
-#  include <openssl/bio.h>
-#  include <openssl/crypto.h>
-#  include <openssl/bn.h>
+#  include <openssl3/e_os2.h>
+#  include <openssl3/asn1.h>
+#  include <openssl3/bio.h>
+#  include <openssl3/crypto.h>
+#  include <openssl3/bn.h>
 #  ifndef OPENSSL_NO_DEPRECATED_1_1_0
-#   include <openssl/dh.h>
+#   include <openssl3/dh.h>
 #  endif
-#  include <openssl/dsaerr.h>
+#  include <openssl3/dsaerr.h>
 #  ifndef OPENSSL_NO_STDIO
 #   include <stdio.h>
 #  endif
