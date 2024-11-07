@@ -1,5 +1,8 @@
 #define CPPHTTPLIB_OPENSSL_SUPPORT
 
+// need this for windows ofxOpenSSL3
+#define USE_OPENSSL3_INSTEAD_OF_OPENSSL_WIN 1
+
 // NOTE: Need to be here to avoid conflict with openssl < 3.0.0 (especially on Windows)
 #include "httplib.h"
 
