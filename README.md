@@ -12,9 +12,10 @@ OpenSSL3 for openFrameworks
 
 ## Usage
 
-NOTE: same example of [ofxHttpLib](https://github.com/funatsufumiya/ofxHttpLib) is used here. You need install `ofxHttpLib` before run this example.
+See [example_http_client](example_http_client).
 
-See [example_http_client](example_http_client). (NOTE: Please use `projectGenerator` before run it)
+- Please use `projectGenerator` before run it.
+- Same example of [ofxHttpLib](https://github.com/funatsufumiya/ofxHttpLib) is used here, so you need install `ofxHttpLib` before run this example.
 
 ```cpp
 #include "ofApp.h"
