@@ -6,7 +6,7 @@ OpenSSL3 for openFrameworks
 - Tested on oF v0.12.0
   - macOS (arm64)
   - Linux (x64)
-  - Windows (x64)
+  - Windows (x64) **WARN: Experimental**
 
 ## Notes
 
