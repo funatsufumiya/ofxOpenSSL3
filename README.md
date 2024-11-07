@@ -14,6 +14,7 @@ OpenSSL3 for openFrameworks
 - On windows, you should use `#include <openssl3/xxx>` instaed of `#include <openssl/xxx>`.
 	- Renamed because openssl < 3.0.0 **will be loaded by default** by oF system (on oF v0.12.0)
 	- This may cause other unknown issues, because using with different version of openssl.
+	- So windows support is **experimental**.
 
 ## Usage
 
