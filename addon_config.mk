@@ -65,3 +65,9 @@ common:
 	# when parsing the file system looking for libraries exclude this for all or
 	# a specific platform
 	# ADDON_LIBS_EXCLUDE =
+
+linux64:
+	ADDON_STATIC_LIBRARIES := libs/lib/linux64/libcrypto.a
+	ADDON_STATIC_LIBRARIES += libs/lib/linux64/libssl.a
+
+	ADDON_LDFLAGS += -L"${PATH_TO_ADDON}/libs/lib/linux64" -lcrypto -lssl
